@@ -43,13 +43,13 @@ a.brand {
 } 
 section.welcome {
 	width: 100vw;
-	height: 100vh;
+	height: 90vh;
 	background: url("../images/tikilogo1web.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 }
 section.about {
-	padding-left: 18rem;	
+	padding-left: 28rem;	
 	font-size: 24px;
     display: flex;
     flex-direction: column;
@@ -59,13 +59,16 @@ section.about {
 section.about p {
 	font-size: 16px;
 	font-display: block;
-	padding-right: 40rem;
+	padding-right: 25rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-content: center;
 }
-
+section.about h2 {
+	font-size: 16px;
+	text-align: left;
+}
 section.footer {
 	background:url("../images/tikilogo1web.jpg");
 	background-color: #507DBC;
