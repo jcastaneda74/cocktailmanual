@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 body {
@@ -43,7 +44,9 @@ a.brand {
 section.welcome {
 	width: 100vw;
 	height: 100vh;
-	background: url("../images/tikilogo1.jpg");
+	background: url("../images/tikilogo1web.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
 }
 section.about {
 	padding-left: 18rem;	
@@ -64,7 +67,11 @@ section.about p {
 }
 
 section.footer {
+	background:url("../images/tikilogo1web.jpg");
 	background-color: #507DBC;
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: contain;
 	width: 100vw;
 	height: 40vh;
 }
