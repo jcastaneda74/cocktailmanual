@@ -41,6 +41,19 @@ nav ul li a:hover {
 	nav ul {
 		flex-direction: column;
 	}
+	nav ul li {
+		margin-left: 0rem;
+		margin-bottom: 0.3rem;
+	}
+	section.welcome {
+		padding-top: 10rem;
+	}
+	section.about {
+		padding-left: 0rem;
+	}
+	section.about h1 {
+		font-size: 26px;
+	}
 }
 
 a.brand {
@@ -53,10 +66,11 @@ section.welcome {
 	background: url("../images/tikilogo1web.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
+	padding-top: 10rem;
 	
 }
 section.about {
-	padding-left: 22rem;	
+	padding-left: 0rem;	
 	font-size: 24px;
     display: flex;
     flex-direction: column;
@@ -64,14 +78,15 @@ section.about {
     align-content: center;
 }
 section.about p {
+	margin-left: 15rem;
+	margin-right: 15rem;
 	font-size: 16px;
+	text-align: left;
 	font-display: block;
-	padding-right: 26rem;
-	padding-left: 5rem;
 }
 
 section.about h1 {
-	padding-left: 5rem;
+	margin-left: 28rem;
 	font-display: block;
 	justify-content: center;
 	align-content: center;
@@ -80,11 +95,11 @@ section.about h1 {
 section.about h2 {
 	font-size: 14px;
 	text-align: center;
-	padding-left: 5rem;
-	padding-right: 31rem;
+	margin-left: 15rem;
+	margin-right: 19rem;
 }
 section.about h3{
-	align-content: center;
+	margin-left: 21.5rem;
 }
 
 section.footer {
