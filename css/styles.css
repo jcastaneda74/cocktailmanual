@@ -37,6 +37,12 @@ nav ul li a:hover {
 	text-decoration: underline;
 }
 
+@media screen and (max-width: 600px) {
+	nav ul {
+		flex-direction: column;
+	}
+}
+
 a.brand {
 	font-size: 16px;
 	font-weight: bold;
@@ -49,7 +55,7 @@ section.welcome {
 	background-position: center;
 }
 section.about {
-	padding-left: 28rem;	
+	padding-left: 22rem;	
 	font-size: 24px;
     display: flex;
     flex-direction: column;
@@ -59,16 +65,27 @@ section.about {
 section.about p {
 	font-size: 16px;
 	font-display: block;
-	padding-right: 25rem;
-	display: flex;
-	flex-direction: column;
+	padding-right: 26rem;
+	padding-left: 5rem;
+}
+
+section.about h1 {
+	padding-left: 5rem;
+	font-display: block;
 	justify-content: center;
 	align-content: center;
+
 }
 section.about h2 {
-	font-size: 16px;
-	text-align: left;
+	font-size: 14px;
+	text-align: center;
+	padding-left: 5rem;
+	padding-right: 31rem;
 }
+section.about h3{
+	align-content: center;
+}
+
 section.footer {
 	background:url("../images/tikilogo1web.jpg");
 	background-color: #507DBC;
