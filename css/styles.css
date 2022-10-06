@@ -37,7 +37,18 @@ nav ul li a:hover {
 	text-decoration: underline;
 }
 
+.container {
+	max-width: 700px;
+	margin: 0 auto;
+}
 @media screen and (max-width: 600px) {
+	.container{
+		max-width: 100%;
+		margin: 0 2rem;
+			}
+	img {
+		max-width: 100%;
+	}
 	nav ul {
 		flex-direction: column;
 	}
@@ -49,10 +60,15 @@ nav ul li a:hover {
 		padding-top: 10rem;
 	}
 	section.about {
-		padding-left: 0rem;
+
 	}
 	section.about h1 {
 		font-size: 26px;
+		margin-left: 0rem;
+	}
+	section.about p {
+		margin-left: 0rem;
+		margin-right: 0rem;
 	}
 }
 
@@ -70,23 +86,21 @@ section.welcome {
 	
 }
 section.about {
-	padding-left: 0rem;	
 	font-size: 24px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
 }
+
+
 section.about p {
-	margin-left: 15rem;
-	margin-right: 15rem;
 	font-size: 16px;
 	text-align: left;
 	font-display: block;
 }
 
 section.about h1 {
-	margin-left: 28rem;
 	font-display: block;
 	justify-content: center;
 	align-content: center;
@@ -95,11 +109,8 @@ section.about h1 {
 section.about h2 {
 	font-size: 14px;
 	text-align: center;
-	margin-left: 15rem;
-	margin-right: 19rem;
 }
 section.about h3{
-	margin-left: 21.5rem;
 }
 
 section.footer {
