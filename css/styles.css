@@ -38,14 +38,14 @@ nav ul li a:hover {
 }
 
 .container {
-	max-width: 700px;
+	max-width: 620px;
 	margin: 0 auto;
 }
 @media screen and (max-width: 600px) {
 	.container{
 		max-width: 100%;
 		margin: 0 2rem;
-			}
+	}
 	img {
 		max-width: 100%;
 	}
@@ -60,10 +60,9 @@ nav ul li a:hover {
 		padding-top: 10rem;
 	}
 	section.about {
-
 	}
 	section.about h1 {
-		font-size: 26px;
+		font-size: 35px;
 		margin-left: 0rem;
 	}
 	section.about p {
@@ -82,7 +81,6 @@ section.welcome {
 	background: url("../images/tikilogo1web.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
-	padding-top: 10rem;
 	
 }
 section.about {
@@ -101,6 +99,7 @@ section.about p {
 }
 
 section.about h1 {
+	margin-left: 5rem;
 	font-display: block;
 	justify-content: center;
 	align-content: center;
@@ -114,11 +113,11 @@ section.about h3{
 }
 
 section.footer {
-	background:url("../images/tikilogo1web.jpg");
+	background:url("../images/tikilogo1webcolor1.jpg");
 	background-color: #507DBC;
 	background-repeat: no-repeat;
 	background-position: left;
-	background-size: contain;
+	background-size: 13rem;
 	width: 100vw;
 	height: 40vh;
 }
