@@ -110,6 +110,17 @@ section.about h2 {
 	text-align: center;
 }
 section.about h3{
+	
+}
+
+
+section.latestcocktails {
+	align-content: center;
+	margin-left: 3rem;
+}
+
+section.latestcocktails h4 {
+	text-align: center;
 }
 
 section.footer {
