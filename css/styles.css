@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 html {
@@ -81,31 +80,34 @@ section.about {
     align-content: center;
 }
 
+
 section.about p {
 	font-size: 16px;
 	text-align: left;
 	font-display: block;
 }
+
 section.about h1 {
 	margin-left: 5rem;
 	font-display: block;
 	justify-content: center;
 	align-content: center;
+
 }
+
 section.about h2 {
 	font-size: 14px;
 	text-align: center;
 	margin-right: 5rem;
 }
+
 section.latestcocktails {
 	font-size: 24px;
 }
-
 section.latestcocktails h2 {
 	font-size: 3rem;
 	text-align: center;
 }
-
 section.latestcocktails p {
 	display: flex;
 	font-size: 12px;
