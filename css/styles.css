@@ -37,14 +37,108 @@ nav ul li a:hover {
 	text-decoration: underline;
 }
 
+img {
+	max-width: 100%;
+}
 .container {
 	max-width: 620px;
 	margin: 0 auto;
 }
+
+a.brand {
+	font-size: 16px;
+	font-weight: bold;
+} 
+section.welcome {
+	width: 100vw;
+	height: 90vh;
+	background: url("../images/tikilogo1web.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+section.about {
+	font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+section.about p {
+	font-size: 16px;
+	text-align: left;
+	font-display: block;
+}
+section.about h1 {
+	margin-left: 5rem;
+	font-display: block;
+	justify-content: center;
+	align-content: center;
+}
+section.about h2 {
+	font-size: 14px;
+	text-align: center;
+	margin-right: 5rem;
+}
+section.about h3{	
+}
+
+section.latestcocktails {
+	font-size: 24px;
+}
+
+section.latestcocktails h2 {
+	font-size: 3rem;
+	text-align: center;
+	margin-right: 6.5rem;
+}
+
+section.latestcocktails p {
+	display: flex;
+	font-size: 12px;
+	text-align: left;
+
+}
+
+.card {
+	width: 33%;
+
+}
+.card img {
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+}
+.container2 {
+	display: flex;
+	gap: 2rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+
+}
+section.footer {
+	background:url("../images/tikilogo1webcolor1.jpg");
+	background-color: #507DBC;
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 13rem;
+	width: 100vw;
+	height: 40vh;
+}
+
 @media screen and (max-width: 600px) {
-	.container{
+	.container {
 		max-width: 100%;
 		margin: 0 2rem;
+	}
+	.container2 {
+		max-width: 100%;
+		display: block;
+		margin: 1rem;
+	}
+	.card {
+		width: 100%;
 	}
 	img {
 		max-width: 100%;
@@ -69,66 +163,4 @@ nav ul li a:hover {
 		margin-left: 0rem;
 		margin-right: 0rem;
 	}
-}
-
-a.brand {
-	font-size: 16px;
-	font-weight: bold;
-} 
-section.welcome {
-	width: 100vw;
-	height: 90vh;
-	background: url("../images/tikilogo1web.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	
-}
-section.about {
-	font-size: 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-}
-
-
-section.about p {
-	font-size: 16px;
-	text-align: left;
-	font-display: block;
-}
-
-section.about h1 {
-	margin-left: 5rem;
-	font-display: block;
-	justify-content: center;
-	align-content: center;
-
-}
-section.about h2 {
-	font-size: 14px;
-	text-align: center;
-}
-section.about h3{
-	
-}
-
-
-section.latestcocktails {
-	align-content: center;
-	margin-left: 3rem;
-}
-
-section.latestcocktails h4 {
-	text-align: center;
-}
-
-section.footer {
-	background:url("../images/tikilogo1webcolor1.jpg");
-	background-color: #507DBC;
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 13rem;
-	width: 100vw;
-	height: 40vh;
 }
