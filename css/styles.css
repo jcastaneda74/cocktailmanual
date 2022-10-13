@@ -42,7 +42,10 @@ img {
 }
 .container {
 	max-width: 620px;
-	margin: 0 auto;
+	margin: 100 auto;
+}
+.container img {
+
 }
 
 a.brand {
@@ -81,9 +84,6 @@ section.about h2 {
 	text-align: center;
 	margin-right: 5rem;
 }
-section.about h3{	
-}
-
 section.latestcocktails {
 	font-size: 24px;
 }
@@ -91,7 +91,6 @@ section.latestcocktails {
 section.latestcocktails h2 {
 	font-size: 3rem;
 	text-align: center;
-	margin-right: 6.5rem;
 }
 
 section.latestcocktails p {
@@ -100,10 +99,8 @@ section.latestcocktails p {
 	text-align: left;
 
 }
-
 .card {
 	width: 33%;
-
 }
 .card img {
 	width: 100%;
@@ -115,8 +112,44 @@ section.latestcocktails p {
 	gap: 2rem;
 	margin-left: 1rem;
 	margin-right: 1rem;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+section.testimonials {
+	display: flex;
+	flex-direction: column;
+}
+
+section.testimonials h2 {
+	text-align: center;
+	font-size: 3rem;
+}
+section.testimonials h3 {
+	font-size: 28px;
 
 }
+section.testimonials h4 {
+	font-size: 16px;
+	padding-right: 24rem;
+}
+section.testimonials p {
+	font-size: 1.5rem;
+
+}
+
+section.socialmedia h2 {
+	font-size: 2.5rem;
+	text-align: center;
+}
+
 section.footer {
 	background:url("../images/tikilogo1webcolor1.jpg");
 	background-color: #507DBC;
@@ -162,5 +195,12 @@ section.footer {
 	section.about p {
 		margin-left: 0rem;
 		margin-right: 0rem;
+	}
+	section.testimonials p {
+		font-size: 16px;
+	}
+	section.testimonials h4 {
+	padding-right: 0rem;
+
 	}
 }
